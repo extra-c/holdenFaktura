@@ -159,4 +159,4 @@ Använd dig av filen <b>form.html</b> eller följande formulär:
 ```
 
 ## Buggar
-Inga kända buggar. Kolla mer här: (https://github.com/extra-c/holdenFaktura/issues)
+Inga kända buggar. Kolla mer här: https://github.com/extra-c/holdenFaktura/issues
