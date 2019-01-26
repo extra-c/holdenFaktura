@@ -10,11 +10,14 @@ Minst jQuery 1.11.1 <br>
 Minst Bootstrap Javascript 3.3.0
 
 ## Kom igång
-Inkludera detta i header
+Inkludera detta innan ```</header>```
 ```
-
 <!------ Krävs för API START INKLUDERA I HEADER ---------->
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script><br>
 <script src="https://www.holden.se/api/call.js"></script>
 <!------ Krävs för API END ---------->
+```
+Använd dig av följande formulär eller filen <b>form.html</b>:
+```
+
 ```
