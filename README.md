@@ -17,136 +17,86 @@ Inkludera detta innan ```</header>```
 <script src="https://www.holden.se/api/call.js"></script>
 <!------ Krävs för API END ---------->
 ```
-Använd dig av följande formulär eller filen <b>form.html</b>:
+Använd dig av filen <b>form.html</b> eller följande formulär:
 ```
 <form id="form" method="GET" target="_blank" action="https://www.holden.se/api/faktura/index.php">
         
-        <div class="row">
-          <div class="col">
-            <h3>Faktura</h3>
-            <hr>
-          </div>
 
-          <div class="col-md-4">
-            <label>Referens/Nummer</label>
-            <input type="text" name="referens" class="form-control">
-          </div>
-          <div class="col-md-4">
-            <label>Faktuereringsdatum</label>
-            <input type="text" name="faktureringsdatum" class="form-control">
-          </div>
-          <div class="col-md-4">
-            <label>Förfallodatum</label>
-            <input type="text" name="forfallodatum" class="form-control">
+		<h3>Faktura</h3>
+	        <label>Referens/Nummer</label>
+	        <input type="text" name="referens" class="form-control">
 
-          </div>
-        </div>
+	 
+	        <label>Faktuereringsdatum</label>
+	        <input type="text" name="faktureringsdatum" class="form-control">
+	    
+	  
+	        <label>Förfallodatum</label>
+	        <input type="text" name="forfallodatum" class="form-control">
 
 
-        <div class="row">
-          <div class="col">
-            <h3>Betalningsmottagare</h3>
-            <hr>
-          </div>
+        
+        <h3>Betalningsmottagare</h3>
 
-          <div class="col-md-6">
             <label>Förnamn & Efternamn / Företag</label>
             <input type="text" name="tperson" class="form-control">
-          </div>
-          <div class="col-md-6">
+          
             <label>Org.nummer (Kan lämnas tom)</label>
             <input type="text" name="torgnummer" class="form-control">
-          </div>
-        </div>
-        <div class="row"><br>
-          <div class="col-md-3">
+
+
             <label>Adress</label>
             <input type="text" name="tadress" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Postnummer</label>
             <input type="text" name="tpostnummer" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Stad</label>
             <input type="text" name="tstad" class="form-control">
-          </div>
 
-          <div class="col-md-3">
+
             <label>Län</label>
             <input type="text" name="tlan" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Land</label>
             <input type="text" name="tland" class="form-control">
-          </div>
 
-        </div>
+        <h3>Fakturamottagare</h3>
 
-        <div class="row">
-          <div class="col">
-            <h3>Fakturamottagare</h3>
-            <hr>
-          </div>
-
-          <div class="col-md-6">
             <label>Förnamn & Efternamn / Företag</label>
             <input type="text" name="fperson" class="form-control">
-          </div>
-          <div class="col-md-6">
+
             <label>Org.nummer (Kan lämnas tom)</label>
             <input type="text" name="forgnummer" class="form-control">
-          </div>
-        </div>
-        <div class="row"><br>
-          <div class="col-md-3">
+
+
             <label>Adress</label>
             <input type="text" name="fadress" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Postnummer</label>
             <input type="text" name="fpostnummer" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Stad</label>
             <input type="text" name="fstad" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Län</label>
             <input type="text" name="flan" class="form-control">
-          </div>
 
-          <div class="col-md-3">
             <label>Land</label>
             <input type="text" name="fland" class="form-control">
-          </div>
 
-        </div>
 
-        <div class="row">
+        <h3>Information</h3>
 
-          <div class="col">
-            <h3>Information</h3><hr>
-          </div>
 
-          <div class="col">
             <label>Status: (Exempel: Inte Betald, Betald, Försenad)</label>
             <input type="text" name="status" class="form-control">
-            <br>
-          </div>
-          
-          <div class="col">
+
+
             <label>Information & villkor</label>
             <textarea name="villkor" rows="5" class="form-control"></textarea>
-          </div>
-        </div>
-<hr>
+
+
       <table class="table table-bordered table-hover" id="tab_logic">
         <thead>
           <tr>
