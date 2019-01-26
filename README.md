@@ -157,3 +157,6 @@ Använd dig av filen <b>form.html</b> eller följande formulär:
       <input type="submit" id="submit" class="btn btn-success pull-right col-md-12" value="Skapa Faktura">
     </form>
 ```
+
+## Buggar
+Inga kända buggar. Kolla mer här: (https://github.com/extra-c/holdenFaktura/issues)
