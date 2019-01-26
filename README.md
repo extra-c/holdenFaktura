@@ -3,8 +3,8 @@ Genom holdenFaktura kan du skapa egna fakturor <b>kostnadsfritt</b> och lätt ge
 För att komma igång kan du ladda upp form.html till din hemsida och köra.
 Alternativt kan du besöka https://www.holden.se/api/
 
-Fakturamall: https://www.holden.se/api/faktura/index.php?referens
-Exempel med data: [Exempel med data](https://www.holden.se/api/faktura/index.php?referens=125648&faktureringsdatum=26-01-2019&forfallodatum=31-01-2019&tperson=Alexander+Timmerson&torgnummer=&tadress=Frinav%C3%A4gen+23&tpostnummer=39423&tstad=G%C3%B6teborg&tlan=V%C3%A4stra+G%C3%B6taland&tland=Sverige&fperson=Froida+AB&forgnummer=5989-5988&fadress=Ferister+23&fpostnummer=54354&fstad=Stockholm&flan=%C3%96stra+G%C3%B6taland&fland=Sverige&status=inte+betald&villkor=Netto+7+dagar.%0D%0A%0D%0ABetalas+genom+Bank.%0D%0ABank%3A+Nordea%0D%0A&product%5B%5D=underh%C3%A5ll&qty%5B%5D=1&startavgift%5B%5D=250&price%5B%5D=458&total%5B%5D=708&sub_total=708.00&tax_procent=&tax_amount=0.00&total_amount=708.00)
+Fakturamall: https://www.holden.se/api/faktura/index.php?referens <br>
+Exempel med data: [Klicka här](https://www.holden.se/api/faktura/index.php?referens=125648&faktureringsdatum=26-01-2019&forfallodatum=31-01-2019&tperson=Alexander+Timmerson&torgnummer=&tadress=Frinav%C3%A4gen+23&tpostnummer=39423&tstad=G%C3%B6teborg&tlan=V%C3%A4stra+G%C3%B6taland&tland=Sverige&fperson=Froida+AB&forgnummer=5989-5988&fadress=Ferister+23&fpostnummer=54354&fstad=Stockholm&flan=%C3%96stra+G%C3%B6taland&fland=Sverige&status=inte+betald&villkor=Netto+7+dagar.%0D%0A%0D%0ABetalas+genom+Bank.%0D%0ABank%3A+Nordea%0D%0A&product%5B%5D=underh%C3%A5ll&qty%5B%5D=1&startavgift%5B%5D=250&price%5B%5D=458&total%5B%5D=708&sub_total=708.00&tax_procent=&tax_amount=0.00&total_amount=708.00)
 
 ### Krav
 Minst jQuery 1.11.1 <br>
