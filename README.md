@@ -13,6 +13,13 @@ Minst Bootstrap Javascript 3.3.0
 Inkludera detta i header
 
 <!------ Krävs för API START INKLUDERA I HEADER ---------->
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script><br>
 <script src="https://www.holden.se/api/call.js"></script>
 <!------ Krävs för API END ---------->
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
