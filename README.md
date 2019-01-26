@@ -8,3 +8,10 @@ Fakturamall: https://www.holden.se/api/faktura/index.php?referens
 ### Krav
 Minst jQuery 1.11.1 <br>
 Minst Bootstrap Javascript 3.3.0
+
+## Kom igång
+Inkludera detta innan </header>
+<!------ Krävs för API START INKLUDERA I HEADER ---------->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://www.holden.se/api/call.js"></script>
+<!------ Krävs för API END ---------->
