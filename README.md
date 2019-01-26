@@ -6,4 +6,5 @@ Alternativt kan du besöka https://www.holden.se/api/
 Fakturamall: https://www.holden.se/api/faktura/index.php?referens
 
 ### Krav
-Minst jQuery 1.11.1, Minst Bootstrap Javascript 3.3.0
+Minst jQuery 1.11.1 <br>
+Minst Bootstrap Javascript 3.3.0
